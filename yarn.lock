@@ -1399,36 +1399,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wojtekmaj/enzyme-adapter-react-17@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@wojtekmaj/enzyme-adapter-react-17@workspace:."
-  dependencies:
-    "@babel/cli": ^7.12.0
-    "@babel/core": ^7.12.0
-    "@babel/runtime": ^7.12.0
-    "@wojtekmaj/enzyme-adapter-utils": ^0.1.0
-    babel-plugin-transform-replace-object-assign: ^2.0.0
-    babel-preset-airbnb: ^4.5.0
-    enzyme: ^3.0.0
-    enzyme-shallow-equal: ^1.0.0
-    eslint: ^7.15.0
-    eslint-config-wojtekmaj: ^0.5.0
-    has: ^1.0.0
-    object.assign: ^4.1.0
-    object.values: ^1.1.0
-    prop-types: ^15.7.0
-    react: ^17.0.0
-    react-dom: ^17.0.0
-    react-is: ^17.0.0
-    react-test-renderer: ^17.0.0
-    rimraf: ^3.0.0
-  peerDependencies:
-    enzyme: ^3.0.0
-    react: ^17.0.0-0
-    react-dom: ^17.0.0-0
-  languageName: unknown
-  linkType: soft
-
 "@wojtekmaj/enzyme-adapter-utils@npm:^0.1.0":
   version: 0.1.0
   resolution: "@wojtekmaj/enzyme-adapter-utils@npm:0.1.0"
@@ -2464,6 +2434,36 @@ __metadata:
   checksum: 09de4fd1c068d5965aa8aede852a764b7fb6fa8f1299ba7789bc29c22840ab1985e0c9c55bc6bf40b4276834b8adfa1baf82ec9bc58445d9e75800dc32d78a4f
   languageName: node
   linkType: hard
+
+"enzyme-adapter-react-17@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "enzyme-adapter-react-17@workspace:."
+  dependencies:
+    "@babel/cli": ^7.12.0
+    "@babel/core": ^7.12.0
+    "@babel/runtime": ^7.12.0
+    "@wojtekmaj/enzyme-adapter-utils": ^0.1.0
+    babel-plugin-transform-replace-object-assign: ^2.0.0
+    babel-preset-airbnb: ^4.5.0
+    enzyme: ^3.0.0
+    enzyme-shallow-equal: ^1.0.0
+    eslint: ^7.15.0
+    eslint-config-wojtekmaj: ^0.5.0
+    has: ^1.0.0
+    object.assign: ^4.1.0
+    object.values: ^1.1.0
+    prop-types: ^15.7.0
+    react: ^17.0.0
+    react-dom: ^17.0.0
+    react-is: ^17.0.0
+    react-test-renderer: ^17.0.0
+    rimraf: ^3.0.0
+  peerDependencies:
+    enzyme: ^3.0.0
+    react: ^17.0.0-0
+    react-dom: ^17.0.0-0
+  languageName: unknown
+  linkType: soft
 
 "enzyme-shallow-equal@npm:^1.0.0, enzyme-shallow-equal@npm:^1.0.1":
   version: 1.0.4
