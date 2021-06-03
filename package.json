@@ -50,14 +50,14 @@
     "enzyme": "^3.0.0",
     "eslint": "^7.15.0",
     "eslint-config-wojtekmaj": "^0.5.0",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "rimraf": "^3.0.0"
   },
   "peerDependencies": {
     "enzyme": "^3.0.0",
-    "react": "^17.0.0-0",
-    "react-dom": "^17.0.0-0"
+    "react": "^17.0.0-2",
+    "react-dom": "^17.0.0-2"
   },
   "resolutions": {
     "semver@7.0.0": "^7.0.0"
